@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="CCm-oR-h2t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="op4-8G-Amv">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -23,32 +23,27 @@
                                         <animations/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile1" id="HeR-FN-gtT">
-                                        <rect key="frame" x="69" y="352" width="153" height="152"/>
+                                        <rect key="frame" x="47" y="777" width="153" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile2" id="Wmk-x7-MK4">
-                                        <rect key="frame" x="64" y="334" width="76" height="75"/>
+                                        <rect key="frame" x="124" y="932" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile3" id="5he-II-NQA">
-                                        <rect key="frame" x="122" y="383" width="76" height="76"/>
+                                        <rect key="frame" x="202" y="854" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile4" id="NSU-4h-aEV">
-                                        <rect key="frame" x="187" y="418" width="76" height="76"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <animations/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile5" id="492-HJ-hkD">
-                                        <rect key="frame" x="57" y="487" width="76" height="75"/>
+                                        <rect key="frame" x="46" y="932" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile6" id="XgP-jb-QLl">
-                                        <rect key="frame" x="178" y="487" width="76" height="75"/>
+                                        <rect key="frame" x="202" y="932" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
@@ -60,6 +55,11 @@
                                             <segue destination="fXW-Fq-jIU" kind="push" animates="NO" id="cQG-YR-c2I"/>
                                         </connections>
                                     </button>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile5" id="492-HJ-hkD">
+                                        <rect key="frame" x="202" y="777" width="76" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
                                 </subviews>
                                 <animations/>
                             </scrollView>
@@ -73,6 +73,12 @@
                     <connections>
                         <outlet property="imageView" destination="wjb-Vw-H5x" id="wov-FV-ffJ"/>
                         <outlet property="scrollView" destination="aaR-Dq-ozX" id="uh1-tw-9u3"/>
+                        <outlet property="tile1View" destination="HeR-FN-gtT" id="zvB-op-NCC"/>
+                        <outlet property="tile2View" destination="Wmk-x7-MK4" id="M8a-05-8Cn"/>
+                        <outlet property="tile3View" destination="5he-II-NQA" id="Xte-yO-rpA"/>
+                        <outlet property="tile4View" destination="NSU-4h-aEV" id="tjJ-Na-Brh"/>
+                        <outlet property="tile5View" destination="492-HJ-hkD" id="g16-Cu-lnC"/>
+                        <outlet property="tile6View" destination="XgP-jb-QLl" id="p62-WY-RT0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -495,6 +501,6 @@
         <image name="welcome4" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fqe-3J-yNO"/>
+        <segue reference="EWt-NR-F4i"/>
     </inferredMetricsTieBreakers>
 </document>
